@@ -1,0 +1,95 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+.container {
+	text-align: center;
+}
+#logo {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	max-width: 272px;
+	padding-top: 109px;
+}
+#search-box {
+	display: inline-block;
+	padding-bottom: 18px;
+}
+.buttons {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	color: #5F6368;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+}
+input {
+	width: 482px;
+	height: 46px;
+	background-color: transparent;
+	border: solid;
+	border-radius: 50px;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, .10);
+	margin: 0px;
+	padding: 1px;
+	color: rgba(0, 0, 0, .87);
+	outline: none;
+	display: flex;
+	flex: 100%;
+	margin-top: 1px;
+	height: 34px;
+	font-size: 16px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: transparent;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: rgba(0, 0, 0, .87);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	text-decoration: underline;
+}
+#sign-in {
+	display: inline-block;
+	background: #4285f4;
+	color: #fff;
+	padding: 0px 10px;
+	line-height: 26px;
+	font-size: 13px;
+	margin: 7px;
+}
+.top-nav {
+	align-content: center;
+}
+.bot-nav {
+	align-content: center;
+}
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin: 0px 0px 0px -35px;
+	padding-left: 27px;
+	background-color: #f2f2f2;
+	color: #222;
+}
